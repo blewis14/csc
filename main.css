@@ -1,6 +1,6 @@
 body {
     font-family: monospace;
-    background-color: black;
+    background-color: darkgray;
     color: white;
 }
 
@@ -8,6 +8,9 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-color: #000;
+    border-radius: 10px;
+    margin-auto: 10px;
 }
 
 #nav li {
