@@ -36,8 +36,8 @@ body {
 }
 
 #nav .nav_section {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #nav li #time_count {
@@ -46,4 +46,5 @@ body {
 
 #nav .last {
     float: right;
+    font-size: 24px;
 }
