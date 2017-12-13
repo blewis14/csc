@@ -11,6 +11,7 @@ body {
     border-radius: 10px;
     margin-auto: 10px;
     overflow: hidden;
+    text-decoration: none;
 }
 
 #nav li {
