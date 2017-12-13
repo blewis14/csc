@@ -21,12 +21,14 @@ body {
 }
 
 #nav li a {
-    background-color: #777;
+    background-color: inherit;
+    color: #49fb35;
     text-decoration: none;
 }
 
 #nav li a:hover {
     background-color: #49fb35;
+    color: #777;
 }
 
 #nav li a img {
