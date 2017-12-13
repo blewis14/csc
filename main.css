@@ -25,3 +25,8 @@ body {
 #nav li a:hover {
     background-color: #000;
 }
+
+#nav li a img {
+    width: 50px;
+    height: 100px;
+}
