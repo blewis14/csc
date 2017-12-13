@@ -19,11 +19,11 @@ body {
 }
 
 #nav li a {
-    background-color: #49fb35;
+    background-color: #777;
 }
 
 #nav li a:hover {
-    background-color: #000;
+    background-color: #49fb35;
 }
 
 #nav li a img {
