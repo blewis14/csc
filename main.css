@@ -35,6 +35,11 @@ body {
     height: 50px;
 }
 
+#nav .nav_section {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #nav li #time_count {
     color: #49fb35;
 }
