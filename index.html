@@ -16,7 +16,7 @@
       <li>&sect;</li>
       <li><a href="/photos/">Photos</a></li>
       <li>&sect;</li>
-      <li><em>Time until next meeting: </em><div id="time_count"></div></li>
+      <li><em>Time until next meeting: </em><span id="time_count"></span></li>
     </ul>
     
     <script type="text/javascript">
@@ -43,9 +43,10 @@
         var timeinterval = setInterval(function(){
           var t = getTimeRemaining(endtime);
           clock.innerHTML = t.days +
-                            ':'+ t.hours +
-                            ':' + t.minutes +
-                            ':' + t.seconds;
+                            'd:'+ t.hours +
+                            'h:' + t.minutes +
+                            'm:' + t.seconds +
+                            's';
           if(t.total<=0){
             clearInterval(timeinterval);
           }
