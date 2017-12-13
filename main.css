@@ -11,12 +11,12 @@ body {
     border-radius: 10px;
     margin-auto: 10px;
     overflow: hidden;
-    height: 60px;
 }
 
 #nav li {
     display: inline;
     font-size: 36px;
+    float: left;
 }
 
 #nav li a {
