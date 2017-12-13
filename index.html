@@ -40,17 +40,18 @@
       
       function initializeClock(id, endtime){
         var clock = document.getElementById(id);
-        var timeinterval = setInterval(function(){
+        function updateClock(){
           var t = getTimeRemaining(endtime);
-          clock.innerHTML = t.days +
-                            'd:'+ t.hours +
-                            'h:' + t.minutes +
-                            'm:' + t.seconds +
-                            's';
+          clock.innerHTML = t.days + 'd:' +
+                            t.hours + 'h:' +
+                            t.minutes + 'm:' +
+                            t.seconds + 's';
           if(t.total<=0){
             clearInterval(timeinterval);
           }
-        },1000);
+        }
+        updateClock();
+        var timeinterval = setInterval(updateClock,1000);
       }
       
       initializeClock('time_count', deadline);
