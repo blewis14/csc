@@ -39,6 +39,11 @@ body {
     color: #49fb35;
 }
 
+#nav .nav_sect {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #nav .last {
     float: right;
 }
