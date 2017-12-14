@@ -86,6 +86,6 @@ table {
 table, th, td {
     border-color: white;
     border-style: solid;
-    border-size: 1px;
+    border-size: 2px;
     text-align: center;
 }
