@@ -91,6 +91,6 @@ table {
 table, th, td {
     border-color: white;
     border-style: solid;
-    border-size: 2px;
+    border-width: 2px;
     text-align: center;
 }
