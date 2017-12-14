@@ -81,7 +81,7 @@ hr:after {
 
 table {
     border-color: white;
-    border-style: dashed;
+    border-style: solid;
     border-size: 2px;
     text-align: center;
     width: 100%;
