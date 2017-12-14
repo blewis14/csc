@@ -84,8 +84,8 @@ table {
 }
 
 .photo_table {
-    width: 255px;
-    height: 255px;
+    width: 255px !important;
+    height: 255px !important;
 }
 
 table, th, td {
