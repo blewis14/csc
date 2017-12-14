@@ -2,7 +2,7 @@ body {
     font-family: monospace;
     background-color: darkgray;
     color: white;
-	font-size: 18px;
+    font-size: 18px;
 }
 
 #nav {
@@ -79,7 +79,7 @@ hr:after {
 
 /* End <hr/> styling */
 
-table {
+th, td {
     border-color: white;
     border-style: solid;
     border-size: 2px;
