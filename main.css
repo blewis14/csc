@@ -75,7 +75,7 @@ hr:after {
 /* End <hr/> styling */
 
 table {
-    border-color: #49fb35;
+    border-color: white;
     border-style: dashed;
     border-size: 2px;
     text-align: center;
