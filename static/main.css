@@ -79,7 +79,7 @@ hr:after {
 
 /* End <hr/> styling */
 
-th, td {
+table, th, td {
     border-color: white;
     border-style: solid;
     border-size: 2px;
