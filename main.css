@@ -2,6 +2,7 @@ body {
     font-family: monospace;
     background-color: darkgray;
     color: white;
+    font-size: 36px;
 }
 
 #nav {
