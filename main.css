@@ -1,7 +1,7 @@
 body {
     font-family: monospace;
     background-color: darkgray;
-    color: white;
+    color: #49fb35;
 }
 
 #nav {
@@ -61,6 +61,7 @@ hr {
     color: #333;
     text-align: center;
 }
+
 hr:after {
     content: "§";
     display: inline-block;
@@ -72,3 +73,11 @@ hr:after {
 }
 
 /* End <hr/> styling */
+
+table {
+    border-color: #49fb35;
+    border-style: dashed;
+    border-size: 2px;
+    text-align: center;
+    margin-auto: 10px;
+}
