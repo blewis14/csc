@@ -83,7 +83,7 @@ table {
     width: 100%;
 }
 
-#photo_table tbody tr td::first_child {
+#photo_table tbody tr > :first_child {
     width: 255px;
     height: 255px;
 }
