@@ -50,6 +50,11 @@ body {
     font-size: 24px;
 }
 
+#nav .active {
+    background-color: #49fb35;
+    color: #000;
+}
+
 /* Heavily modified from https://css-tricks.com/examples/hrs/ */
 
 hr {
