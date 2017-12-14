@@ -5,6 +5,12 @@ body {
     font-size: 18px;
 }
 
+#title {
+    text-align: center;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
 #nav {
     list-style-type: none;
     padding: 0;
