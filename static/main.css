@@ -94,3 +94,11 @@ table, th, td {
     border-width: 2px;
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
