@@ -110,6 +110,7 @@ a:hover {
 .bar {
     display: inline-block !important;
     text-align: center;
+    width: 100%;
 }
 
 .icon {
