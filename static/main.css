@@ -131,3 +131,8 @@ a:hover {
     font-size: 16px;
     text-align: center;
 }
+
+.news_img {
+    width: 300px;
+    height: 300px;
+}
