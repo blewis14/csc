@@ -94,10 +94,6 @@ table {
     height: 275px !important;
 }
 
-.news_table {
-    width: 275px !important;
-}
-
 table, th, td {
     border-color: white;
     border-style: solid;
