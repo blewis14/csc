@@ -1,6 +1,6 @@
 /* Modified from: https://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies */
 
-var deadline = 'December 18 2017 14:45:00';
+var deadline = 'January 3 2018 14:45:00';
 function getTimeRemaining(endtime){
     var t = Date.parse(endtime) - Date.parse(new Date());
     var seconds = Math.floor( (t/1000) % 60 );
