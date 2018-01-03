@@ -36,4 +36,4 @@ function initializeClock(id, endtime){
 initializeClock('time_count', deadline);
 */
 var clock = document.getElementById('time_count');
-clock.innerHTML = "Hey guys :D do you like it? btw this clock usually counts down";
+clock.innerHTML = "muhaha im an alien";
