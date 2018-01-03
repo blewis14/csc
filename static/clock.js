@@ -1,5 +1,6 @@
 /* Modified from: https://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies */
 
+/*
 var deadline = 'January 3 2018 14:45:00';
 function getTimeRemaining(endtime){
     var t = Date.parse(endtime) - Date.parse(new Date());
@@ -33,3 +34,6 @@ function initializeClock(id, endtime){
 }
 
 initializeClock('time_count', deadline);
+*/
+var clock = document.getElementById('time_count');
+clock.innerHTML = "Hey guys :D do you like it?";
