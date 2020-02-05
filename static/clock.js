@@ -1,8 +1,8 @@
 /* Modified from: https://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies */
 
-var deadline = 'February 5 2020 14:45:00';
+var deadline = new Date(2020, 2, 5, 14, 45, 0);
 function getTimeRemaining(endtime){
-    var t = Date.parse(endtime) - Date.parse(new Date());
+    var t = endtime - Date.parse(new Date());
     var seconds = Math.floor( (t/1000) % 60 );
     var minutes = Math.floor( (t/1000/60) % 60 );
     var hours = Math.floor( (t/(1000*60*60)) % 24 );
